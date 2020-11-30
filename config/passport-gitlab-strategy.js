@@ -5,8 +5,8 @@ const User = require('../models/user');
 
 
 passport.use(new GitlabStrategy({
-  clientID: 'c1929f062dc0e7b399a30ca84901bcb6df73befda84547e88488734c022640bc',
-  clientSecret: 'a1a1c52ed8e0b14f0a78209753045bb9f96afd5f297034319845482dd868ab41',
+  clientID: '<Your Client ID',
+  clientSecret: '<Your Client Secret>',
   gitlabURL : "https://gitlab.com/",
   callbackURL: "http://localhost:8000/users/auth/gitlab/callback"
 },
