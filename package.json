@@ -1,0 +1,25 @@
+{
+  "name": "auth_task",
+  "version": "1.0.0",
+  "description": "Test Emplier Task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Auth",
+    "Gitlab"
+  ],
+  "author": "Kirti_Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.17",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-gitlab": "^0.5.0"
+  }
+}

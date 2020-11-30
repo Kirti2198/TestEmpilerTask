@@ -1,0 +1,26 @@
+#welcomeText{
+  margin-top:50px;
+  margin-left:43vw;
+}
+#buttonContainer{
+  width:30vw;
+  height:20px;
+  margin-left:40vw;
+}
+
+#signInBtn{
+  display: inline-block;
+    padding: 4px 30px;
+    font-size: 18px;
+    line-height: 40px;
+    min-width: 140px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+  background-color: #e65328;
+  color: #fff;
+}
+#signInBtn a{
+  color:#fff;
+    text-decoration: none;
+  }  
